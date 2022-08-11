@@ -1,0 +1,170 @@
+body,html {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background);
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--title);
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.9rem;
+    transition: auto ease-out 0.2s;
+}
+
+#header .nav-link:hover {
+    color: var(--orange1);
+    transform: scale(1.05);
+}
+
+#inicio .titulo {
+    font-weight: 900;
+    line-height: 5rem;
+    color: var(--title);
+    font-size: 4.5rem;
+}
+
+#inicio .texto {
+    font-weight: 500;
+    color: var(--text);
+
+}
+
+#inicio .btn-outline-primary {
+    border-radius: 0.5rem;
+    border: 2px solid var(--title);
+    background-color: transparent;
+    color: var(--title);
+    font-weight: 600;
+    transition: all ease-out 0.2s;
+}
+
+#inicio .btn-outline-primary:hover {
+    background-color: var(--orange1);
+    border: 2px solid transparent;
+    color: var(--white);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+.titulo{
+    color: var(--title);
+    font-weight: 600;
+    text-align: left;
+}
+
+.texto {
+    color: var(--text);
+    font-weight: 500;
+    text-align: justify;
+}
+
+#professors a.prof {
+    display: block;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: all ease-out 0.2s;
+}
+
+#professors a.prof:hover {
+    background-color: var(--orange1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+#professors .titulo-prof {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.titulo_area {
+    font-weight: 700;
+    color: var(--text);
+}
+
+#professors a.prof .img-prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    border-radius: 100%;
+}
+
+#horario a.disciplina {
+    display: block;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: all ease-out 0.2s;
+}
+
+#horario a.disciplina:hover {
+    background-color: var(--blue1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+
+#professors2 a.prof {
+    display: block;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: all ease-out 0.2s;
+}
+
+#professors2 a.prof:hover {
+    background-color: var(--orange1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+#professors2 .titulo-prof {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#professors2 a.prof .img-prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    border-radius: 100%;
+}
+
+ .aligned {
+     display: flex;
+     align-items: center;
+ }
+
+span {
+    padding: 10px;
+}
+
+#areas a.texto-area {
+    display: block;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: all ease-out 0.2s;
+}
+
+#areas a.texto-area:hover {
+    background-color: var(--blue1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+

@@ -1,0 +1,39 @@
+@media (max-width: 991.98px){
+    #header .navbar-collapse{
+        width: 100%;
+    }
+
+    #inicio .titulo{
+        font-size: 3rem;
+        text-align: justify;
+        line-height: auto;
+        padding-top: 0;
+        margin: 0;
+    }
+
+    #inicio{
+        margin: 0;
+        padding: 0;
+    }
+
+    #curso .img-site {
+        margin-bottom: 2rem;
+    }
+
+    #omnilink .img-site {
+        margin-top: 2rem;
+    }
+
+    #horario .disciplina{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767.98px){
+    #professors .img-prof{
+        width: 50%;
+        align-self: center;
+        justify-content: center;
+        margin-left: 135px;
+    }
+}
