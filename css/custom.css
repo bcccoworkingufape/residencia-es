@@ -77,6 +77,20 @@ body,html {
     font-size: 1.7rem;
 }
 
+#contato .titulo{
+    color: var(--title);
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#contato .texto{
+    color: var(--text);
+    font-weight: 500;
+    text-align: justify;
+    font-size: 0.85rem;
+}
+
 #professors a.prof {
     display: block;
     background-color: var(--white);
