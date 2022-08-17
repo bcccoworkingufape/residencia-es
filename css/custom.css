@@ -70,6 +70,13 @@ body,html {
     text-align: justify;
 }
 
+#edital .titulo{
+    color: var(--title);
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
 #professors a.prof {
     display: block;
     background-color: var(--white);
